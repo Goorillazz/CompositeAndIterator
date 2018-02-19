@@ -10,6 +10,7 @@ namespace CompositeAndIterator
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

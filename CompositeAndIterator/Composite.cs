@@ -18,12 +18,12 @@ namespace CompositeAndIterator
 
         public override void Add(Component component)
         {
-            _components.Add(component);
+            Components.Add(component);
         }
 
         public override void Remove(Component component)
         {
-            _components.Remove(component);
+            Components.Remove(component);
         }
     }
 }

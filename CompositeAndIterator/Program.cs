@@ -31,6 +31,14 @@ namespace CompositeAndIterator
             C1.Add(C11);
             C1.Add(C12);
 
+            var iterator = C1.CreateIterator();
+
+            while (!iterator.IsDone())
+            {
+                iterator.Next();
+                var ci = iterator.CurrentItem();
+                ci.Operation();                
+            }
 
         }
     }
